@@ -7,7 +7,7 @@ from services.compliance import get_compliance
 st.set_page_config(layout="wide")
 st.title("🚢 EGCS Live Vessel Dashboard")
 
-df = pd.read_excel("data/vessels.xlsx")
+df = pd.read_csv("data/vessels.csv")
 
 results = []
 
